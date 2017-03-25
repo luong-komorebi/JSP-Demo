@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Html Form</title>
+</head>
+<body>
+<p>Please notice the link after submitting the form to see the difference between GET and POST method!</p>
+<br>
+<h3>User Register</h3>
+<div style="border:1px solid #D0D0D0;width:400px;padding:10px;">
+ 
+    <form method = "POST" action="formProcessing.jsp">
+        User Name: <input type="text" name="userName" value="">
+        <br>
+        Password : <input type="password" name="password" value="">
+ 
+        <hr>
+        First Name: <input type="text" name="firstName">
+        <br>
+        Last Name: <input type="text" name="lastName">
+        <br>
+        Gender: <input type="radio" name="gender" value ="M"> Male
+                <input type="radio" name="gender" value="F"> Female
+        <hr>
+        Address:
+        <br>
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">
+        <input type="text" name="address" size="50">        
+              
+        <hr>        
+        <input type="submit" value="Submit">
+    </form>
+ 
+</div>
+ 
+</body>
+</html>
